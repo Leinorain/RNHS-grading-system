@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="mainAnchor" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Form137Controller1">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label text="LEARNER'S INFORMATION" GridPane.columnSpan="12" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+      <Label text="LAST NAME:" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <Label text="FIRST NAME:" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <Label text="NAME EXTN. (Jr,I,II):" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <Label text="MIDDLE NAME:" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+      <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="firstNameField" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="extnNameField" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <TextField fx:id="middleNameField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Learner Reference Number (LRN):" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <TextField fx:id="LRNField" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Birthdate (mm/dd/yyyy):" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <TextField fx:id="birthdayField" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Sex" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <TextField fx:id="sexField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="4">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="SCHOLASTIC RECORD" GridPane.columnSpan="12" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label text="School:" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <TextField fx:id="schoolField" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="School ID:" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <TextField fx:id="schoolIDField" GridPane.columnIndex="4" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="District:" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <TextField fx:id="districtField" GridPane.columnIndex="6" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Region:" GridPane.columnIndex="10" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <TextField fx:id="regionField" text="MIMAROPA" GridPane.columnIndex="11" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="Division" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
+      <TextField fx:id="divisionField" text="OCCIDENTAL MINDORO" GridPane.columnIndex="8" GridPane.columnSpan="2" GridPane.rowIndex="8">
+         <GridPane.margin>
+            <Insets left="10.0" right="10.0" />
+         </GridPane.margin>
+      </TextField>
+      <Label text="LEARNING AREAS" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.rowSpan="2" />
+      <Label text="Quarterly Rating" GridPane.columnIndex="5" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="9" />
+      <Label text="1" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="10" />
+      <Label text="2" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="10" />
+      <Label text="3" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="10" />
+      <Label text="4" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="10" />
+      <Label text="FINAL RATING" GridPane.columnIndex="9" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.rowSpan="2" />
+      <Label text="Remarks" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="9" GridPane.rowSpan="2" />
+      <Label text="Filipino" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="11">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="English" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="12">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Mathematics" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Science" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="14">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Araling Panlipunan (AP)" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="15">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Edukasyon sa Pagpapakatao (EsP)" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="16">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Technology and Livelihood Education (TLE)" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="17">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="MAPEH" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="18">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Music" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="19">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Arts" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="20">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Physical Education" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="21">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="Health" GridPane.columnSpan="4" GridPane.halignment="LEFT" GridPane.rowIndex="22">
+         <GridPane.margin>
+            <Insets left="40.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="GENERAL AVERAGE" GridPane.columnIndex="5" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="24" GridPane.valignment="CENTER" />
+      <TextField fx:id="filipino1_1Field" onKeyTyped="#computeFilipino" GridPane.columnIndex="5" GridPane.rowIndex="11" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="english1_1Field" onKeyTyped="#computeEnglish" GridPane.columnIndex="5" GridPane.rowIndex="12" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="mathematics1_1Field" onKeyTyped="#computeMathematics" GridPane.columnIndex="5" GridPane.rowIndex="13" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="science1_1Field" onKeyTyped="#computeScience" GridPane.columnIndex="5" GridPane.rowIndex="14" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="aralingPanlipunan1_1Field" onKeyTyped="#computeAralingPanlipunan" GridPane.columnIndex="5" GridPane.rowIndex="15" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="EsP1_1Field" onKeyTyped="#computeEsP" GridPane.columnIndex="5" GridPane.rowIndex="16" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="TLE1_1Field" onKeyTyped="#computeTLE" GridPane.columnIndex="5" GridPane.rowIndex="17" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="MAPEH1_1Field" onKeyTyped="#computeMAPEH" GridPane.columnIndex="5" GridPane.rowIndex="18" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="music1_1Field" GridPane.columnIndex="5" GridPane.rowIndex="19" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="arts1_1Field" GridPane.columnIndex="5" GridPane.rowIndex="20" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="PE1_1Field" GridPane.columnIndex="5" GridPane.rowIndex="21" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="health1_1Field" GridPane.columnIndex="5" GridPane.rowIndex="22" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets left="5.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="EsP1_2Field" onKeyTyped="#computeEsP" GridPane.columnIndex="6" GridPane.rowIndex="16" GridPane.valignment="CENTER" />
+      <TextField fx:id="aralingPanlipunan1_3Field" onKeyTyped="#computeAralingPanlipunan" GridPane.columnIndex="7" GridPane.rowIndex="15" GridPane.valignment="CENTER" />
+      <TextField fx:id="aralingPanlipunan1_2Field" onKeyTyped="#computeAralingPanlipunan" GridPane.columnIndex="6" GridPane.rowIndex="15" GridPane.valignment="CENTER" />
+      <TextField fx:id="filipino1_3Field" onKeyTyped="#computeFilipino" GridPane.columnIndex="7" GridPane.rowIndex="11" GridPane.valignment="CENTER" />
+      <TextField fx:id="science1_3Field" onKeyTyped="#computeScience" GridPane.columnIndex="7" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+      <TextField fx:id="science1_2Field" onKeyTyped="#computeScience" GridPane.columnIndex="6" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+      <TextField fx:id="mathematics1_3Field" onKeyTyped="#computeMathematics" GridPane.columnIndex="7" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+      <TextField fx:id="english1_3Field" onKeyTyped="#computeEnglish" GridPane.columnIndex="7" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+      <TextField fx:id="english1_4Field" onKeyTyped="#computeEnglish" GridPane.columnIndex="8" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+      <TextField fx:id="filipino1_4Field" onKeyTyped="#computeFilipino" GridPane.columnIndex="8" GridPane.rowIndex="11" GridPane.valignment="CENTER" />
+      <TextField fx:id="english1_2Field" onKeyTyped="#computeEnglish" GridPane.columnIndex="6" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+      <TextField fx:id="mathematics1_2Field" onKeyTyped="#computeMathematics" GridPane.columnIndex="6" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+      <TextField fx:id="health1_4Field" GridPane.columnIndex="8" GridPane.rowIndex="22" GridPane.valignment="CENTER" />
+      <TextField fx:id="PE1_3Field" GridPane.columnIndex="7" GridPane.rowIndex="21" GridPane.valignment="CENTER" />
+      <TextField fx:id="health1_3Field" GridPane.columnIndex="7" GridPane.rowIndex="22" GridPane.valignment="CENTER" />
+      <TextField fx:id="mathematics1_4Field" onKeyTyped="#computeMathematics" GridPane.columnIndex="8" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+      <TextField fx:id="science1_4Field" onKeyTyped="#computeScience" GridPane.columnIndex="8" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+      <TextField fx:id="aralingPanlipunan1_4Field" onKeyTyped="#computeAralingPanlipunan" GridPane.columnIndex="8" GridPane.rowIndex="15" GridPane.valignment="CENTER" />
+      <TextField fx:id="EsP1_4Field" onKeyTyped="#computeEsP" GridPane.columnIndex="8" GridPane.rowIndex="16" GridPane.valignment="CENTER" />
+      <TextField fx:id="TLE1_4Field" onKeyTyped="#computeTLE" GridPane.columnIndex="8" GridPane.rowIndex="17" GridPane.valignment="CENTER" />
+      <TextField fx:id="MAPEH1_4Field" onKeyTyped="#computeMAPEH" GridPane.columnIndex="8" GridPane.rowIndex="18" GridPane.valignment="CENTER" />
+      <TextField fx:id="music1_4Field" GridPane.columnIndex="8" GridPane.rowIndex="19" GridPane.valignment="CENTER" />
+      <TextField fx:id="arts1_4Field" GridPane.columnIndex="8" GridPane.rowIndex="20" GridPane.valignment="CENTER" />
+      <TextField fx:id="PE1_4Field" GridPane.columnIndex="8" GridPane.rowIndex="21" GridPane.valignment="CENTER" />
+      <TextField fx:id="health1_2Field" GridPane.columnIndex="6" GridPane.rowIndex="22" GridPane.valignment="CENTER" />
+      <TextField fx:id="filipino1_2Field" onKeyTyped="#computeFilipino" GridPane.columnIndex="6" GridPane.rowIndex="11" GridPane.valignment="CENTER" />
+      <TextField fx:id="EsP1_3Field" onKeyTyped="#computeEsP" GridPane.columnIndex="7" GridPane.rowIndex="16" GridPane.valignment="CENTER" />
+      <TextField fx:id="TLE1_3Field" onKeyTyped="#computeTLE" GridPane.columnIndex="7" GridPane.rowIndex="17" GridPane.valignment="CENTER" />
+      <TextField fx:id="TLE1_2Field" onKeyTyped="#computeTLE" GridPane.columnIndex="6" GridPane.rowIndex="17" GridPane.valignment="CENTER" />
+      <TextField fx:id="MAPEH1_3Field" onKeyTyped="#computeMAPEH" GridPane.columnIndex="7" GridPane.rowIndex="18" GridPane.valignment="CENTER" />
+      <TextField fx:id="MAPEH1_2Field" onKeyTyped="#computeMAPEH" GridPane.columnIndex="6" GridPane.rowIndex="18" GridPane.valignment="CENTER" />
+      <TextField fx:id="music1_3Field" GridPane.columnIndex="7" GridPane.rowIndex="19" GridPane.valignment="CENTER" />
+      <TextField fx:id="music1_2Field" GridPane.columnIndex="6" GridPane.rowIndex="19" GridPane.valignment="CENTER" />
+      <TextField fx:id="arts1_2Field" GridPane.columnIndex="6" GridPane.rowIndex="20" GridPane.valignment="CENTER" />
+      <TextField fx:id="PE1_2Field" GridPane.columnIndex="6" GridPane.rowIndex="21" GridPane.valignment="CENTER" />
+      <TextField fx:id="arts1_3Field" GridPane.columnIndex="7" GridPane.rowIndex="20" GridPane.valignment="CENTER" />
+      <TextField fx:id="filipino1_fField" GridPane.columnIndex="9" GridPane.rowIndex="11" GridPane.valignment="CENTER" />
+      <TextField fx:id="health1_fField" GridPane.columnIndex="9" GridPane.rowIndex="22" GridPane.valignment="CENTER" />
+      <TextField fx:id="PE1_fField" GridPane.columnIndex="9" GridPane.rowIndex="21" GridPane.valignment="CENTER" />
+      <TextField fx:id="arts1_fField" GridPane.columnIndex="9" GridPane.rowIndex="20" GridPane.valignment="CENTER" />
+      <TextField fx:id="music1_fField" GridPane.columnIndex="9" GridPane.rowIndex="19" GridPane.valignment="CENTER" />
+      <TextField fx:id="MAPEH1_fField" GridPane.columnIndex="9" GridPane.rowIndex="18" GridPane.valignment="CENTER" />
+      <TextField fx:id="TLE1_fField" GridPane.columnIndex="9" GridPane.rowIndex="17" GridPane.valignment="CENTER" />
+      <TextField fx:id="EsP1_fField" GridPane.columnIndex="9" GridPane.rowIndex="16" GridPane.valignment="CENTER" />
+      <TextField fx:id="aralingPanlipunan1_fField" GridPane.columnIndex="9" GridPane.rowIndex="15" GridPane.valignment="CENTER" />
+      <TextField fx:id="science1_fField" GridPane.columnIndex="9" GridPane.rowIndex="14" GridPane.valignment="CENTER" />
+      <TextField fx:id="mathematics1_fField" GridPane.columnIndex="9" GridPane.rowIndex="13" GridPane.valignment="CENTER" />
+      <TextField fx:id="english1_fField" GridPane.columnIndex="9" GridPane.rowIndex="12" GridPane.valignment="CENTER" />
+      <TextField fx:id="english1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="12" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="22" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="20" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="19" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="MAPEH1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="18" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="TLE1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="17" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="EsP1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="16" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="aralingPanlipunan1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="15" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="mathematics1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="13" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="science1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="14" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="filipino1_rField" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="11" GridPane.valignment="CENTER">
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></TextField>
+      <TextField fx:id="average1Field" GridPane.columnIndex="8" GridPane.rowIndex="24" />
+      <Label fx:id="yearLevel" text="1st Year" GridPane.columnSpan="12" GridPane.halignment="CENTER" />
+      <Button fx:id="saveForm137Button" minWidth="120.0" mnemonicParsing="false" onAction="#saveForm137" text="Save" GridPane.columnIndex="5" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="26" />
+      <Button fx:id="nextButton" minWidth="120.0" mnemonicParsing="false" onAction="#next" text="Next" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="26" />
+      <Button fx:id="closeForm137Button" minWidth="120.0" mnemonicParsing="false" onAction="#closeForm137" text="Close" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="26" />
+      <Button fx:id="downloadButton" minWidth="240.0" mnemonicParsing="false" onAction="#download" text="Download" GridPane.columnIndex="4" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.rowIndex="28" GridPane.valignment="CENTER" />
+   </children>
+</GridPane>

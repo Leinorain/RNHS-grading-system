@@ -1,0 +1,23 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+	-fx-background-image: url("background.jpg");
+	-fx-background-size: cover;
+}
+
+textfield, select, textarea, {
+    -fx-color: #FFFFFF;
+}
+
+label {
+	-fx-color: #FFFFFF;
+}
+
+/*
+
+#aboutButton:hover,#accountSettingsButton:hover,#logout:hover,#addRecordButton:hover,#homeButton:hover,#reportsButton:hover,#saveButton:hover{
+	-fx-opacity:0.5;
+  	-fx-transition: .5s ease;
+}
+
+
+*/
